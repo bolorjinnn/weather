@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(107, 107, 194);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        .weather{
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .weather input{
+            margin-top: 10px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="weather">
+        <input type="text" placeholder="write a country or a city">
+        <button>search</button>
+        <div class="info">
+            <p class="temp"></p>
+            <p class="desc"></p>
+            <p class="wind"></p>
+            <p class="humid"></p>
+            <img src="" alt="">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
